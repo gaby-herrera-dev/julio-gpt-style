@@ -2,7 +2,6 @@ main{
   overflow: hidden;
   position: relative;
   height: 100vh;
-  background: url(./img/huella-dark.svg);
   background-size: cover;
   background-position:center;
 }
