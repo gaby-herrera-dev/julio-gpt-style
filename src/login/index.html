@@ -10,11 +10,13 @@
 </head>
 
 <body>
-    <main>
+    <main class="flex items-center justify-center flex-col">
+
+        <h1 class="fixed text-3xl text-gray-300 font-bold top-6">Iniciar Sesión</h1>
 
 
         <svg id="ola3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#777" fill-opacity="1"
+            <path fill="#999" fill-opacity="1"
                 d="M0,32L40,74.7C80,117,160,203,240,218.7C320,235,400,181,480,165.3C560,149,640,171,720,202.7C800,235,880,277,960,288C1040,299,1120,277,1200,229.3C1280,181,1360,107,1400,69.3L1440,32L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z">
             </path>
         </svg>
@@ -31,30 +33,29 @@
 
             <form id="login-form">
                 <div class="mb-6">
-                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
-                        email</label>
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900">
+                        Email</label>
                     <input type="email" id="email"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 placeholder-gray-400"
                         placeholder="name@flowbite.com" required>
                 </div>
                 <div class="mb-6">
-                    <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your
-                        password</label>
+                    <label for="password" class="block mb-2 text-sm font-medium ">Your
+                        Contraseña</label>
                     <input type="password" id="password"
-                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        required>
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 placeholder-gray-400 "
+                        required placeholder="***********">
                 </div>
                 <div class="flex items-start mb-6">
                     <div class="flex items-center h-5">
                         <input id="remember" type="checkbox" value=""
-                            class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800"
+                            class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 ring-offset-gray-800 focus:ring-offset-gray-800"
                             required>
                     </div>
-                    <label for="remember" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember
-                        me</label>
+                    <label for="remember" class="ml-2 text-gray-600 text-sm font-medium">Recordar Contraseña</label>
                 </div>
                 <button type="submit"
-                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center ">Submit</button>
             </form>
         </article>
 

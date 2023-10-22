@@ -6,7 +6,7 @@
   },
   "scripts": {
     "dev": "npm-run-all --parallel server tailwind",
-    "server": "live-server src --port=5000 --host=localhost",
+    "server": "live-server src --no-cache --port=5000 --host=localhost",
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
     "build": "npx tailwindcss -i ./src/input.css -o ./src/output.min.css --minify"
   }

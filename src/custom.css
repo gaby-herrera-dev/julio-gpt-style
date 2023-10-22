@@ -2,10 +2,14 @@ main{
   overflow: hidden;
   position: relative;
   height: 100vh;
+  background: url(./_img/huella-dark.svg);
   background-size: cover;
   background-position:center;
 }
 
+body{
+  background:#eeee;
+}
 #ola1{
   position: absolute;
   top: 0;
@@ -44,7 +48,7 @@ main{
   #ola1{
     transform: translateY(-30%);
   }
-  #ola2{
+  #ola2, #ola3{
     transform: translateY(30%);
   }
 

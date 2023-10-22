@@ -3,6 +3,9 @@ main {
 	position: relative;
 	height: 100vh;
 }
+body{
+	background: #eee;
+}
 
 #ola1 {
 	position: absolute;
@@ -54,5 +57,8 @@ main {
 	}
 	#ola2 {
 		transform: translateY(30%);
+	}
+	#ola3 {
+		transform: translateY(-10%) rotate(10deg);
 	}
 }
