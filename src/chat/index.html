@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="../output.css">
+<body class="bg-[#101836]">
+  <main class="flex flex-col items-center justify-center w-screen h-screen text-gray-800 md:p-10">
+
+    <div class="flex flex-col flex-grow w-full max-w-xl md:bg-white/10 border  border-gray-900 overflow-hidden shadow-xl rounded-lg">
+      
+
+
+
+      <div class="flex flex-col flex-grow h-0 p-4 overflow-x-hidden">
+
+        <a href="/" class="flex items-start opacity-20 mb- hover:opacity-50 cursor-pointer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1)"><path d="M13.939 4.939 6.879 12l7.06 7.061 2.122-2.122L11.121 12l4.94-4.939z"></path></svg>
+          <p class="text-white">Regresar</p>
+        </a>
+    
+        <div class="flex w-full mt-2 space-x-3 max-w-xs">
+          <div class='relative h-full w-8 flex-shrink-0'>
+    
+            <div class="absolute bottom-0 h-8 w-8 rounded-full bg-gray-100 overflow-hidden">
+              <Image width={60} height={60} src="/julio-perfil-image.svg" alt="julio" />
+            </div>
+          </div>
+          <div>
+            <div class="bg-gray-100 text-gray-600 p-3 rounded-r-2xl rounded-tl-2xl">
+              <p class="text-sm font-medium">Hola soy Julio ¿en que puedo ayudarte?</p>
+            </div>
+            <span class="text-xs text-gray-500 leading-none">hace 4 min</span>
+          </div>
+        </div>
+    
+        <div class="flex w-full mt-2 space-x-3 max-w-xs ml-auto justify-end">
+          <div>
+            <div class="bg-[#2F80ED] text-white p-3 rounded-l-2xl rounded-br-2xl">
+              <p class="text-sm">Hola ayudame con el servicio social</p>
+            </div>
+            <span class="text-xs text-gray-500 leading-none">hace 3 min</span>
+          </div>
+    
+        </div>
+      </div>
+    
+      <div class="flex bg-gray-300/10 p-4">
+        <input
+          class="flex items-center bg-transparent border-none outline-none text-white h-10 w-full rounded px-3 text-sm"
+          type="text" placeholder="Escribe tu mensaje…" />
+        <img class="cursor-pointer" width={25} height={25} src="/icons/send.svg" alt="send icon"></im>
+      </div>
+
+
+
+    </div>
+  </main>
+  
+</body>
+
+</html>
